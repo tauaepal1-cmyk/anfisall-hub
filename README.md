@@ -1,4 +1,4 @@
-# Abysall Hub is a free, open-sourced script hub I made because scripting is fun.
+# anfissal Hub is a free
 If you want to try it for yourself:
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bocaj111004/Abysall/refs/heads/main/Loader.luau"))()
