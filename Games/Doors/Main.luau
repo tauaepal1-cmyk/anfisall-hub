@@ -466,7 +466,7 @@ Globals.DoorsNotify = function(NotifyOptions)
 	end)
 end
 
-Globals.STX = loadstring(game:HttpGet("https://raw.githubusercontent.com/bocaj111004/Abysall/refs/heads/main/Components/STX.luau"))()
+Globals.STX = loadstring(game:HttpGet("https://raw.githubusercontent.com/tauaepal1-cmyk/anfisall-hub/refs/heads/main/Components/STX.luau"))()
 Functions.Notify = function(Settings)
 	local HiddenContainer = GetHiddenContainer()
 
@@ -2510,7 +2510,7 @@ Groupboxes.Floors_Farming:AddButton({
 	DoubleClick = true,
 	Tooltip = "Automatically farms deaths, joining new runs.",
 	Func = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/bocaj111004/Abysall/refs/heads/main/Scripts/DeathFarm.luau"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/tauaepal1-cmyk/anfisall-hub/refs/heads/main/Scripts/DeathFarm.luau"))()
 	end,
 
 	Disabled = not Functions.CheckCompatability({"fireproximityprompt", "firesignal"}),
@@ -2522,7 +2522,7 @@ Groupboxes.Floors_Farming:AddButton({
 	Tooltip = "Copies the death farm loadstring to your clipboard.",
 	Func = function()
 		toclipboard([==[
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/bocaj111004/Abysall/refs/heads/main/Scripts/DeathFarm.luau"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/tauaepal1-cmyk/anfisall-hub/refs/heads/main/Scripts/DeathFarm.luau"))()
 		]==])
 		Library:Notify("Loadstring has been copied to your clipboard.")
 	end,
